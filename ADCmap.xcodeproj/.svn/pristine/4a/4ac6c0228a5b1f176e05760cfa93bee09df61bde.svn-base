@@ -1,0 +1,162 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = F0F84DC013399AB700494466 /* OsiriX */;
+		activeTarget = 8D5B49AC048680CD000E48DA /* ADCmap */;
+		codeSenseManager = F0F84DA9133998B900494466 /* Code sense */;
+		executables = (
+			F0F84DC013399AB700494466 /* OsiriX */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					678,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					791,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 322758976;
+			PBXWorkspaceStateSaveDate = 322758976;
+		};
+		perUserProjectItems = {
+			F0C14949133CE94400AA95F1 /* PBXTextBookmark */ = F0C14949133CE94400AA95F1 /* PBXTextBookmark */;
+			F0C14954133CE95700AA95F1 /* PBXTextBookmark */ = F0C14954133CE95700AA95F1 /* PBXTextBookmark */;
+			F0CF1424133CE90800FC22E9 = F0CF1424133CE90800FC22E9 /* PBXTextBookmark */;
+			F0CF1425133CE90800FC22E9 = F0CF1425133CE90800FC22E9 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F0F84DA8133998B900494466 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D5B49AC048680CD000E48DA /* ADCmap */ = {
+		activeExec = 0;
+	};
+	ABA48A640680BB600089EB4F /* ADCmapFilter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {968, 1218}}";
+			sepNavSelRange = "{812, 0}";
+			sepNavVisRange = "{608, 935}";
+		};
+	};
+	ABA48A660680BB690089EB4F /* ADCmapFilter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 7700}}";
+			sepNavSelRange = "{371, 0}";
+			sepNavVisRange = "{2205, 1103}";
+		};
+	};
+	F0C14949133CE94400AA95F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ABA48A660680BB690089EB4F /* ADCmapFilter.m */;
+		name = "ADCmapFilter.m: 16";
+		rLen = 0;
+		rLoc = 372;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 0;
+	};
+	F0C14954133CE95700AA95F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ABA48A660680BB690089EB4F /* ADCmapFilter.m */;
+		name = "ADCmapFilter.m: 17";
+		rLen = 0;
+		rLoc = 372;
+		rType = 0;
+		vrLen = 1103;
+		vrLoc = 2205;
+	};
+	F0CF1424133CE90800FC22E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ABA48A660680BB690089EB4F /* ADCmapFilter.m */;
+		name = "ADCmapFilter.m: 16";
+		rLen = 0;
+		rLoc = 372;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 0;
+	};
+	F0CF1425133CE90800FC22E9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = ABA48A660680BB690089EB4F /* ADCmapFilter.m */;
+		name = "ADCmapFilter.m: 16";
+		rLen = 0;
+		rLoc = 372;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 0;
+	};
+	F0F84DA8133998B900494466 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryName = "BMR SVN ADC Map";
+		};
+	};
+	F0F84DA9133998B900494466 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F0F84DC013399AB700494466 /* OsiriX */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = F0F84DC113399AB700494466 /* OsiriX.app */;
+		libgmallocEnabled = 0;
+		name = OsiriX;
+		sourceDirectories = (
+		);
+	};
+	F0F84DC113399AB700494466 /* OsiriX.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = OsiriX.app;
+		path = /Research/osirix_plugins/Development/OsiriX.app;
+		sourceTree = "<absolute>";
+	};
+}
