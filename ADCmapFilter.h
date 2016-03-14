@@ -2,7 +2,7 @@
 //  ADCmapFilter.h
 //  ADCmap
 //
-//  Copyright (c) 2010 Brian. All rights reserved.
+//  Copyright (c) 2010 Brian Hargreaves. All rights reserved.
 //
 //
 
