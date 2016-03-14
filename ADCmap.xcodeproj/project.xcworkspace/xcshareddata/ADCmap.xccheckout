@@ -7,79 +7,34 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>5B8FFF3A-1D38-4A64-9C31-6B7CF10D6819</string>
 	<key>IDESourceControlProjectName</key>
-	<string>.</string>
+	<string>ADCmap</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>7bae866e-a43f-47d6-9845-0f6850c5ca7e</key>
-		<string>svn+ssh://catania/bmr/cvsroot/ADCmap</string>
-		<key>7bae866e-a43f-47d6-9845-0f6850c5ca7e++1770</key>
-		<string>svn+ssh://catania/bmr/cvsroot/ADCmap/trunk/OsiriX%25252520Headers</string>
-		<key>7bae866e-a43f-47d6-9845-0f6850c5ca7e++389</key>
-		<string>svn+ssh://catania/bmr/cvsroot/ADCmap/trunk/English.lproj</string>
-		<key>7bae866e-a43f-47d6-9845-0f6850c5ca7e++4923</key>
-		<string>svn+ssh://catania/bmr/cvsroot/ADCmap/trunk/ADCmap.xcodeproj</string>
+		<key>5820A4621F29B11E21933F523233982D6968403B</key>
+		<string>https://github.com/mribri999/ADCmap.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>.</string>
+	<string>ADCmap.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>7bae866e-a43f-47d6-9845-0f6850c5ca7e</key>
+		<key>5820A4621F29B11E21933F523233982D6968403B</key>
 		<string>../..</string>
-		<key>7bae866e-a43f-47d6-9845-0f6850c5ca7e++1770</key>
-		<string>../../OsiriX%20Headers</string>
-		<key>7bae866e-a43f-47d6-9845-0f6850c5ca7e++389</key>
-		<string>../../English.lproj</string>
-		<key>7bae866e-a43f-47d6-9845-0f6850c5ca7e++4923</key>
-		<string>..</string>
-	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>7bae866e-a43f-47d6-9845-0f6850c5ca7e++1770</key>
-		<string>svn+ssh://catania/bmr/cvsroot/ADCmap</string>
-		<key>7bae866e-a43f-47d6-9845-0f6850c5ca7e++389</key>
-		<string>svn+ssh://catania/bmr/cvsroot/ADCmap</string>
-		<key>7bae866e-a43f-47d6-9845-0f6850c5ca7e++4923</key>
-		<string>svn+ssh://catania/bmr/cvsroot/ADCmap</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>svn+ssh://catania/bmr/cvsroot/ADCmap/trunk/ADCmap.xcodeproj/.</string>
+	<string>https://github.com/mribri999/ADCmap.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7bae866e-a43f-47d6-9845-0f6850c5ca7e++4923</string>
+	<string>5820A4621F29B11E21933F523233982D6968403B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7bae866e-a43f-47d6-9845-0f6850c5ca7e</string>
+			<string>5820A4621F29B11E21933F523233982D6968403B</string>
 			<key>IDESourceControlWCCName</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7bae866e-a43f-47d6-9845-0f6850c5ca7e++4923</string>
-			<key>IDESourceControlWCCName</key>
-			<string>ADCmap.xcodeproj</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7bae866e-a43f-47d6-9845-0f6850c5ca7e++389</string>
-			<key>IDESourceControlWCCName</key>
-			<string>English.lproj</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7bae866e-a43f-47d6-9845-0f6850c5ca7e++1770</string>
-			<key>IDESourceControlWCCName</key>
-			<string>OsiriX%20Headers</string>
+			<string>ADCmap</string>
 		</dict>
 	</array>
 </dict>
