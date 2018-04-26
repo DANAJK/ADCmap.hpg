@@ -8,8 +8,8 @@
 //
 
 #import "ADC_ToolGraph.h"
-#import "DICOMExport.h"
-#import "BrowserController.h"
+#import "Horos/DICOMExport.h"
+#import "Horos/BrowserController.h"
 
 @implementation ADC_ToolGraph
 

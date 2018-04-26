@@ -9,9 +9,9 @@
 
 
 #import <Foundation/Foundation.h>
-#import "PluginFilter.h"
-#import "DCMObject.h"
-#import "DCMAttributeTag.h"
+#import "Horos/PluginFilter.h"
+#import "DCM/DCMObject.h"
+#import "DCM/DCMAttributeTag.h"
 #import "ADC_ToolGraph.h"
 
 

@@ -8,72 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		8D5B49AE048680CD000E48DA /* ADCmap_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCF630370AF2F00C91783 /* ADCmap_Prefix.pch */; };
-		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 		ABA48A650680BB600089EB4F /* ADCmapFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA48A640680BB600089EB4F /* ADCmapFilter.h */; };
 		ABA48A670680BB690089EB4F /* ADCmapFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA48A660680BB690089EB4F /* ADCmapFilter.m */; };
-		D3534401194CF33300E2A8DB /* DCMPix.h in Headers */ = {isa = PBXBuildFile; fileRef = D3534400194CF33300E2A8DB /* DCMPix.h */; };
 		D355C602162F74AA005E917F /* ADC_ToolGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = D355C600162F74AA005E917F /* ADC_ToolGraph.h */; };
 		D355C603162F74AA005E917F /* ADC_ToolGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = D355C601162F74AA005E917F /* ADC_ToolGraph.m */; };
 		D3643F4A1449011A005F3187 /* ADCwindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3643F491449011A005F3187 /* ADCwindow.xib */; };
-		D3727AA1194574970037B3AB /* browserController.h in Headers */ = {isa = PBXBuildFile; fileRef = D3727A97194574970037B3AB /* browserController.h */; };
-		D3727AA2194574970037B3AB /* BrowserController+Sources.h in Headers */ = {isa = PBXBuildFile; fileRef = D3727A98194574970037B3AB /* BrowserController+Sources.h */; };
-		D3727AA4194574970037B3AB /* DCMView.h in Headers */ = {isa = PBXBuildFile; fileRef = D3727A9A194574970037B3AB /* DCMView.h */; };
-		D3727AA5194574970037B3AB /* dicomFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D3727A9B194574970037B3AB /* dicomFile.h */; };
-		D3727AA6194574970037B3AB /* MyPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D3727A9C194574970037B3AB /* MyPoint.h */; };
-		D3727AA7194574970037B3AB /* Notifications.h in Headers */ = {isa = PBXBuildFile; fileRef = D3727A9D194574970037B3AB /* Notifications.h */; };
-		D3727AA8194574970037B3AB /* PluginFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = D3727A9E194574970037B3AB /* PluginFilter.h */; };
-		D3727AA9194574970037B3AB /* ROI.h in Headers */ = {isa = PBXBuildFile; fileRef = D3727A9F194574970037B3AB /* ROI.h */; };
-		D3727AAA194574970037B3AB /* ViewerController.h in Headers */ = {isa = PBXBuildFile; fileRef = D3727AA0194574970037B3AB /* ViewerController.h */; };
-		D3727AAD194574D50037B3AB /* DCMAttributeTag.h in Headers */ = {isa = PBXBuildFile; fileRef = D3727AAB194574D50037B3AB /* DCMAttributeTag.h */; };
-		D3727AAE194574D50037B3AB /* DCMObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D3727AAC194574D50037B3AB /* DCMObject.h */; };
-		D3727AB0194575110037B3AB /* Wait.h in Headers */ = {isa = PBXBuildFile; fileRef = D3727AAF194575110037B3AB /* Wait.h */; };
-		D3727AB2194575690037B3AB /* DICOMExport.h in Headers */ = {isa = PBXBuildFile; fileRef = D3727AB1194575690037B3AB /* DICOMExport.h */; };
-		D3727AB4194575AC0037B3AB /* N3Geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = D3727AB3194575AC0037B3AB /* N3Geometry.h */; };
-		D3727AB6194575E00037B3AB /* OSIWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = D3727AB5194575E00037B3AB /* OSIWindowController.h */; };
 		D398E3A2144E3C8D00024985 /* biexpfit.c in Sources */ = {isa = PBXBuildFile; fileRef = D398E3A1144E3C8D00024985 /* biexpfit.c */; };
 		D398E3A4144E3E8A00024985 /* levmar.h in Headers */ = {isa = PBXBuildFile; fileRef = D398E3A3144E3E8A00024985 /* levmar.h */; };
 		D398E3A6144E417D00024985 /* biexpfit.h in Headers */ = {isa = PBXBuildFile; fileRef = D398E3A5144E417D00024985 /* biexpfit.h */; };
 		D3B6D137145669D0000EE968 /* liblevmar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B6D136145669D0000EE968 /* liblevmar.a */; };
 		D3FAACC6163706060093BD75 /* ADC-map.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FAACC5163706060093BD75 /* ADC-map.png */; };
 		D3FAACCA163726480093BD75 /* ADC-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FAACC9163726480093BD75 /* ADC-icon.png */; };
+		F18F3B79209246BD00EA747E /* Horos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18F3B78209246BD00EA747E /* Horos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F18F3B7C20924E0500EA747E /* DCM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18F3B7A20924CC900EA747E /* DCM.framework */; };
+		F18F3B832092668F00EA747E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F18F3B812092668F00EA747E /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF630370AF2F00C91783 /* ADCmap_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCmap_Prefix.pch; sourceTree = "<group>"; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABA48A640680BB600089EB4F /* ADCmapFilter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ADCmapFilter.h; sourceTree = "<group>"; };
 		ABA48A660680BB690089EB4F /* ADCmapFilter.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ADCmapFilter.m; sourceTree = "<group>"; };
-		D3534400194CF33300E2A8DB /* DCMPix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMPix.h; sourceTree = "<group>"; };
 		D355C600162F74AA005E917F /* ADC_ToolGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADC_ToolGraph.h; sourceTree = "<group>"; };
 		D355C601162F74AA005E917F /* ADC_ToolGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADC_ToolGraph.m; sourceTree = "<group>"; };
 		D3643F491449011A005F3187 /* ADCwindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADCwindow.xib; sourceTree = "<group>"; };
-		D371A48D1447F378002C1245 /* ADCmap.osirixplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADCmap.osirixplugin; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3727A97194574970037B3AB /* browserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = browserController.h; sourceTree = "<group>"; };
-		D3727A98194574970037B3AB /* BrowserController+Sources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BrowserController+Sources.h"; sourceTree = "<group>"; };
-		D3727A9A194574970037B3AB /* DCMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMView.h; sourceTree = "<group>"; };
-		D3727A9B194574970037B3AB /* dicomFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dicomFile.h; sourceTree = "<group>"; };
-		D3727A9C194574970037B3AB /* MyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPoint.h; sourceTree = "<group>"; };
-		D3727A9D194574970037B3AB /* Notifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
-		D3727A9E194574970037B3AB /* PluginFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginFilter.h; sourceTree = "<group>"; };
-		D3727A9F194574970037B3AB /* ROI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROI.h; sourceTree = "<group>"; };
-		D3727AA0194574970037B3AB /* ViewerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewerController.h; sourceTree = "<group>"; };
-		D3727AAB194574D50037B3AB /* DCMAttributeTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMAttributeTag.h; sourceTree = "<group>"; };
-		D3727AAC194574D50037B3AB /* DCMObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMObject.h; sourceTree = "<group>"; };
-		D3727AAF194575110037B3AB /* Wait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wait.h; sourceTree = "<group>"; };
-		D3727AB1194575690037B3AB /* DICOMExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DICOMExport.h; sourceTree = "<group>"; };
-		D3727AB3194575AC0037B3AB /* N3Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N3Geometry.h; sourceTree = "<group>"; };
-		D3727AB5194575E00037B3AB /* OSIWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSIWindowController.h; sourceTree = "<group>"; };
+		D371A48D1447F378002C1245 /* ADCMap.horosplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADCMap.horosplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		D398E3A1144E3C8D00024985 /* biexpfit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = biexpfit.c; sourceTree = "<group>"; };
 		D398E3A3144E3E8A00024985 /* levmar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = levmar.h; sourceTree = "<group>"; };
 		D398E3A5144E417D00024985 /* biexpfit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = biexpfit.h; sourceTree = "<group>"; };
 		D3B6D136145669D0000EE968 /* liblevmar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblevmar.a; sourceTree = "<group>"; };
 		D3FAACC5163706060093BD75 /* ADC-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ADC-map.png"; sourceTree = "<group>"; };
 		D3FAACC9163726480093BD75 /* ADC-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ADC-icon.png"; sourceTree = "<group>"; };
+		F18F3B78209246BD00EA747E /* Horos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Horos.framework; path = ../horos/DerivedData/Build/Products/Debug/Horos.app/Contents/Frameworks/Horos.framework; sourceTree = "<group>"; };
+		F18F3B7A20924CC900EA747E /* DCM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DCM.framework; path = ../horos/DerivedData/Build/Products/Debug/Horos.app/Contents/Frameworks/DCM.framework; sourceTree = "<group>"; };
+		F18F3B822092668F00EA747E /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18F3B7C20924E0500EA747E /* DCM.framework in Frameworks */,
+				F18F3B79209246BD00EA747E /* Horos.framework in Frameworks */,
 				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
 				D3B6D137145669D0000EE968 /* liblevmar.a in Frameworks */,
 			);
@@ -97,6 +71,7 @@
 				089C167CFE841241C02AAC07 /* Resources */,
 				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
 				D371A4861447EFC6002C1245 /* Products */,
+				F18F3B77209246BD00EA747E /* Frameworks */,
 			);
 			name = ADCmap;
 			sourceTree = "<group>";
@@ -118,7 +93,7 @@
 				D3FAACC5163706060093BD75 /* ADC-map.png */,
 				D3643F491449011A005F3187 /* ADCwindow.xib */,
 				8D5B49B7048680CD000E48DA /* Info.plist */,
-				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				F18F3B812092668F00EA747E /* InfoPlist.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -126,7 +101,6 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				ABB76338067FB2A8000912C1 /* OsiriX Headers */,
 				AB2C26750677B0C400A08910 /* ADCmapFilter */,
 			);
 			name = Classes;
@@ -171,35 +145,21 @@
 			name = ADCmapFilter;
 			sourceTree = "<group>";
 		};
-		ABB76338067FB2A8000912C1 /* OsiriX Headers */ = {
-			isa = PBXGroup;
-			children = (
-				D3534400194CF33300E2A8DB /* DCMPix.h */,
-				D3727AB5194575E00037B3AB /* OSIWindowController.h */,
-				D3727AB3194575AC0037B3AB /* N3Geometry.h */,
-				D3727AB1194575690037B3AB /* DICOMExport.h */,
-				D3727AAF194575110037B3AB /* Wait.h */,
-				D3727AAB194574D50037B3AB /* DCMAttributeTag.h */,
-				D3727AAC194574D50037B3AB /* DCMObject.h */,
-				D3727A97194574970037B3AB /* browserController.h */,
-				D3727A98194574970037B3AB /* BrowserController+Sources.h */,
-				D3727A9A194574970037B3AB /* DCMView.h */,
-				D3727A9B194574970037B3AB /* dicomFile.h */,
-				D3727A9C194574970037B3AB /* MyPoint.h */,
-				D3727A9D194574970037B3AB /* Notifications.h */,
-				D3727A9E194574970037B3AB /* PluginFilter.h */,
-				D3727A9F194574970037B3AB /* ROI.h */,
-				D3727AA0194574970037B3AB /* ViewerController.h */,
-			);
-			path = "OsiriX Headers";
-			sourceTree = "<group>";
-		};
 		D371A4861447EFC6002C1245 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D371A48D1447F378002C1245 /* ADCmap.osirixplugin */,
+				D371A48D1447F378002C1245 /* ADCMap.horosplugin */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F18F3B77209246BD00EA747E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F18F3B7A20924CC900EA747E /* DCM.framework */,
+				F18F3B78209246BD00EA747E /* Horos.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,25 +170,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5B49AE048680CD000E48DA /* ADCmap_Prefix.pch in Headers */,
-				D3727AA9194574970037B3AB /* ROI.h in Headers */,
 				ABA48A650680BB600089EB4F /* ADCmapFilter.h in Headers */,
-				D3727AA2194574970037B3AB /* BrowserController+Sources.h in Headers */,
-				D3727AA6194574970037B3AB /* MyPoint.h in Headers */,
-				D3727AA5194574970037B3AB /* dicomFile.h in Headers */,
-				D3727AB2194575690037B3AB /* DICOMExport.h in Headers */,
-				D3534401194CF33300E2A8DB /* DCMPix.h in Headers */,
-				D3727AB6194575E00037B3AB /* OSIWindowController.h in Headers */,
-				D3727AB4194575AC0037B3AB /* N3Geometry.h in Headers */,
-				D3727AA8194574970037B3AB /* PluginFilter.h in Headers */,
-				D3727AA4194574970037B3AB /* DCMView.h in Headers */,
-				D3727AAE194574D50037B3AB /* DCMObject.h in Headers */,
-				D3727AA7194574970037B3AB /* Notifications.h in Headers */,
-				D3727AB0194575110037B3AB /* Wait.h in Headers */,
 				D398E3A4144E3E8A00024985 /* levmar.h in Headers */,
-				D3727AAD194574D50037B3AB /* DCMAttributeTag.h in Headers */,
-				D3727AA1194574970037B3AB /* browserController.h in Headers */,
 				D398E3A6144E417D00024985 /* biexpfit.h in Headers */,
-				D3727AAA194574970037B3AB /* ViewerController.h in Headers */,
 				D355C602162F74AA005E917F /* ADC_ToolGraph.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,9 +180,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8D5B49AC048680CD000E48DA /* ADCmap */ = {
+		8D5B49AC048680CD000E48DA /* ADCMap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE6A9A9008AC841300D0C1EE /* Build configuration list for PBXNativeTarget "ADCmap" */;
+			buildConfigurationList = CE6A9A9008AC841300D0C1EE /* Build configuration list for PBXNativeTarget "ADCMap" */;
 			buildPhases = (
 				8D5B49AD048680CD000E48DA /* Headers */,
 				8D5B49AF048680CD000E48DA /* Resources */,
@@ -250,10 +194,10 @@
 			);
 			dependencies = (
 			);
-			name = ADCmap;
+			name = ADCMap;
 			productInstallPath = "$(HOME)/Library/Bundles";
 			productName = Invert;
-			productReference = D371A48D1447F378002C1245 /* ADCmap.osirixplugin */;
+			productReference = D371A48D1447F378002C1245 /* ADCMap.horosplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -278,7 +222,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D5B49AC048680CD000E48DA /* ADCmap */,
+				8D5B49AC048680CD000E48DA /* ADCMap */,
 			);
 		};
 /* End PBXProject section */
@@ -288,8 +232,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
 				D3643F4A1449011A005F3187 /* ADCwindow.xib in Resources */,
+				F18F3B832092668F00EA747E /* InfoPlist.strings in Resources */,
 				D3FAACC6163706060093BD75 /* ADC-map.png in Resources */,
 				D3FAACCA163726480093BD75 /* ADC-icon.png in Resources */,
 			);
@@ -321,10 +265,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+		F18F3B812092668F00EA747E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C167EFE841241C02AAC07 /* English */,
+				F18F3B822092668F00EA747E /* English */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -332,97 +276,17 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CE6A9A9108AC841300D0C1EE /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				DEBUGGING_SYMBOLS = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_TRIGRAPHS = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ADCmap_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
-				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "@executable_path/../Plug-ins";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
-				LIBRARY_STYLE = Bundle;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = (
-					"-undefined",
-					dynamic_lookup,
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ADCmap;
-				SDKROOT = macosx;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = osirixplugin;
-				ZERO_LINK = NO;
-			};
-			name = Development;
-		};
-		CE6A9A9208AC841300D0C1EE /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_TRIGRAPHS = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ADCmap_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
-				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = Info.plist;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)\"",
-				);
-				LIBRARY_STYLE = Bundle;
-				MACOSX_DEPLOYMENT_TARGET = 10.3;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = (
-					"-undefined",
-					dynamic_lookup,
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ADCmap;
-				SDKROOT = macosx;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
 		CE6A9A9308AC841300D0C1EE /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = /Applications/Horos.app/Contents/Frameworks/;
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ADCmap_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = /Applications/Horos.app/Contents/Frameworks/Headers/;
 				INFOPLIST_FILE = Info.plist;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -436,7 +300,7 @@
 					dynamic_lookup,
 				);
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ADCmap;
+				PRODUCT_NAME = ADCMap;
 				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
@@ -444,36 +308,9 @@
 					"-Wno-four-char-constants",
 					"-Wno-unknown-pragmas",
 				);
+				WRAPPER_EXTENSION = horosplugin;
 			};
 			name = Default;
-		};
-		CE6A9A9508AC841300D0C1EE /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					i386,
-					ppc,
-					ppc64,
-					x86_64,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				New_Setting = "";
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
-			};
-			name = Development;
-		};
-		CE6A9A9608AC841300D0C1EE /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = (
-					ppc,
-					i386,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				New_Setting = "";
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
-			};
-			name = Deployment;
 		};
 		CE6A9A9708AC841300D0C1EE /* Default */ = {
 			isa = XCBuildConfiguration;
@@ -489,28 +326,137 @@
 			};
 			name = Default;
 		};
+		F18F3B7D2092582700EA747E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					ppc,
+					ppc64,
+					x86_64,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				New_Setting = "";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		F18F3B7E2092582700EA747E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Horos.app/Contents/Frameworks/;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ADCmap_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = /Applications/Horos.app/Contents/Frameworks/Headers/;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Plug-ins";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ADCMap;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = horosplugin;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		F18F3B7F2092583700EA747E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				New_Setting = "";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+		F18F3B802092583700EA747E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = /Applications/Horos.app/Contents/Frameworks/;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ADCmap_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = /Applications/Horos.app/Contents/Frameworks/Headers/;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ADCMap;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = horosplugin;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE6A9A9008AC841300D0C1EE /* Build configuration list for PBXNativeTarget "ADCmap" */ = {
+		CE6A9A9008AC841300D0C1EE /* Build configuration list for PBXNativeTarget "ADCMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE6A9A9108AC841300D0C1EE /* Development */,
-				CE6A9A9208AC841300D0C1EE /* Deployment */,
+				F18F3B7E2092582700EA747E /* Debug */,
+				F18F3B802092583700EA747E /* Release */,
 				CE6A9A9308AC841300D0C1EE /* Default */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
+			defaultConfigurationName = Debug;
 		};
 		CE6A9A9408AC841300D0C1EE /* Build configuration list for PBXProject "ADCmap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE6A9A9508AC841300D0C1EE /* Development */,
-				CE6A9A9608AC841300D0C1EE /* Deployment */,
+				F18F3B7D2092582700EA747E /* Debug */,
+				F18F3B7F2092583700EA747E /* Release */,
 				CE6A9A9708AC841300D0C1EE /* Default */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Development;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

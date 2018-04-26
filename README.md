@@ -1,5 +1,9 @@
-# ADCmap
-OsiriX  plugin code (mac-only, objective C) to calculate apparent diffusion coefficient from MRI DICOM images.
+# ADCmap (Horos plugin)
+_This fork ports OsiriX plugin ADCMap, originally by Dr. Brian Hargreaves, to **Horos**_
+
+_Follows original text:_
+
+ADCMap calculates apparent diffusion coefficient from MRI DICOM images.
 
 This code was developed for quick/easy ADC calculation from DICOM images.   
 Other features including IVIM (fast and biexponential) fits and synthetic image calculation have been added.

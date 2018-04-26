@@ -8,9 +8,9 @@
 
 
 #import "ADCmapFilter.h"
-#import "Wait.h"
+#import "Horos/Wait.h"
 
-#include "Notifications.h"
+#include "Horos/Notifications.h"
 // To Do List:
 //  -Add "help" buttons
 //  -List image number, b-value for user.
@@ -28,7 +28,7 @@
 
 - (void) initPlugin
 {
-	NSLog(@"ADCmap Plugin Started.");
+	//NSLog(@"ADCmap Plugin Initiated.");
 }
 
 
