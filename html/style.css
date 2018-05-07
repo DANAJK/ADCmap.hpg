@@ -1,0 +1,84 @@
+body {
+	font-size: 12px;
+	font-family: "Lucida Grande";
+	margin: 0;
+}
+
+#header {
+	padding-top: 1rem;
+}
+
+.plugin-identification {
+	background-color: #008bd2;
+	color: white;
+	padding: 1rem 1.5rem 1rem 4.5rem;
+	display: inline-block;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	position: relative;
+}
+
+.plugin-identification:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	width: 1000%;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.horos-logo {
+	width: 44px;
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+}
+
+.horos-name {
+
+}
+
+h1 {
+	margin: 0;
+	font-size: 22px;
+}
+
+.version {
+	padding: 0.25rem 0.5rem;
+	font-weight: 600;
+	font-size: 11px;
+	background-color: #F0F0F0;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+#header .version {
+	background-color: #D4ECFD;
+	color: #008bd2;
+	margin-left: 0.5rem;
+	margin-bottom: 0.25rem;
+	vertical-align: bottom;
+}
+
+#content {
+	padding: 1rem 2rem;
+}
+
+.content-block {
+	margin-bottom: 2rem;
+}
+
+#content img {
+	display: inline-block;
+	max-height: 15rem;
+	max-width: 20rem;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+	border-radius: 4px;
+}
+
+ul {
+	padding-left: 1.75rem;
+	margin-top: 0.5rem;
+	margin-bottom: 1rem;
+}

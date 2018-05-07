@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+	<head>
+		<script src="http://www.horosproject.org/wp-content/uploads/horos_plugins/redirect.js"></script>
+		<link href="./style.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+
+		<div id="header">
+      <div class="plugin-identification">
+        <img class="horos-logo" src="horos-logo.png"/>
+        <span class="horos-name">Horos Plugin</span>
+        <h1>ADC Map</h1>
+      </div>
+      <div class="version">Version 2.0</div>
+    </div>
+
+		<div id="content">
+
+      <div class="content-block">
+        <h3>About this Plugin:</h3>
+        <p>This is a simple plugin that allows you to calculate an ADC map (apparent diffusion coefficient) from images acquired with different diffusion weighting (b values).
+        Simply open multiple images in the <b>4D viewer</b> and run the plugin.</p>
+        <p><b>Notes:</b></p>
+        <ol>
+            <li>The plugin attempts to read b values from image headers. However, there is little consistency as to how this information is stored, so we will continue to work on this, and appreciate your feedback.</li>
+            <li>You can instead just enter the b values for the acquired images in the plugin, which works fine.</li>
+            <li>Maps are grayscale by default, but you can change the CLUT to make them color (etc).</li>
+        </ol>
+      </div>
+
+      <div class="content-block">
+        <h3>Images:</h3>
+        <img src="screenshot01.jpg"/>
+      </div>
+      
+      <div class="content-block">
+          <p><b>Contact: </b>Please send comments or questions to Brian Hargreaves <a href="mailto:bah@stanford.edu" target="_top">bah@stanford.edu</a>. Our group's OsiriX/Horos tools are located <a href="https://www.stanford.edu/group/bmr/cgi-bin/mediawiki/index.php/Software/">here</a>.</p>
+          <p><b>Download: </b>Expand the archive ADCmap.horosplugin.zip and double-click the plugin icon (or put the plugin into your Library/Application Support/Horos/Plugins folder.)</p>
+          <p><b>Source Code: </b><a href="https://github.com/brizolara/ADCmap.hpg">This Horos version.</a> / <a href="https://github.com/mribri999/ADCmap">Former OsiriX version.</a></p>
+          <p><b>History before 2.0 (before Horos version): </b><a href="https://web.stanford.edu/~bah/software/ADCmap/versions.html">versions and changes</a></p>
+          <p><b>Acknowledgements: </b> Kyung Sung, Geoff Charles-Edwards</p>
+      </div>
+
+      <div class="content-block">
+        <h3>Changelog (Version 2.0 on):</h3>
+        <div class="version">Version 2.0</div>
+        <ul>
+          <li>Horos 3.0 build.</li>
+        </ul>
+      </div>
+
+  	</div>
+
+	</body>
+
+</html>
