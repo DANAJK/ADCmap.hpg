@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8D5B49AE048680CD000E48DA /* ADCmap_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCF630370AF2F00C91783 /* ADCmap_Prefix.pch */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		99EFF82220A5E5B900304A7B /* DCM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18F3B7A20924CC900EA747E /* DCM.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		99EFF82320A5E5CD00304A7B /* Horos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18F3B78209246BD00EA747E /* Horos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		ABA48A650680BB600089EB4F /* ADCmapFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA48A640680BB600089EB4F /* ADCmapFilter.h */; };
 		ABA48A670680BB690089EB4F /* ADCmapFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA48A660680BB690089EB4F /* ADCmapFilter.m */; };
 		D355C602162F74AA005E917F /* ADC_ToolGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = D355C600162F74AA005E917F /* ADC_ToolGraph.h */; };
@@ -20,8 +22,6 @@
 		D3B6D137145669D0000EE968 /* liblevmar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B6D136145669D0000EE968 /* liblevmar.a */; };
 		D3FAACC6163706060093BD75 /* ADC-map.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FAACC5163706060093BD75 /* ADC-map.png */; };
 		D3FAACCA163726480093BD75 /* ADC-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D3FAACC9163726480093BD75 /* ADC-icon.png */; };
-		F18F3B79209246BD00EA747E /* Horos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18F3B78209246BD00EA747E /* Horos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		F18F3B7C20924E0500EA747E /* DCM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18F3B7A20924CC900EA747E /* DCM.framework */; };
 		F18F3B832092668F00EA747E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F18F3B812092668F00EA747E /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +43,8 @@
 		D3B6D136145669D0000EE968 /* liblevmar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblevmar.a; sourceTree = "<group>"; };
 		D3FAACC5163706060093BD75 /* ADC-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ADC-map.png"; sourceTree = "<group>"; };
 		D3FAACC9163726480093BD75 /* ADC-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ADC-icon.png"; sourceTree = "<group>"; };
-		F18F3B78209246BD00EA747E /* Horos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Horos.framework; path = ../horos/DerivedData/Build/Products/Debug/Horos.app/Contents/Frameworks/Horos.framework; sourceTree = "<group>"; };
-		F18F3B7A20924CC900EA747E /* DCM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DCM.framework; path = ../horos/DerivedData/Build/Products/Debug/Horos.app/Contents/Frameworks/DCM.framework; sourceTree = "<group>"; };
+		F18F3B78209246BD00EA747E /* Horos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Horos.framework; path = ../../../../../Applications/Horos.app/Contents/Frameworks/Horos.framework; sourceTree = "<group>"; };
+		F18F3B7A20924CC900EA747E /* DCM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DCM.framework; path = ../../../../../Applications/Horos.app/Contents/Frameworks/DCM.framework; sourceTree = "<group>"; };
 		F18F3B822092668F00EA747E /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,8 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F18F3B7C20924E0500EA747E /* DCM.framework in Frameworks */,
-				F18F3B79209246BD00EA747E /* Horos.framework in Frameworks */,
+				99EFF82320A5E5CD00304A7B /* Horos.framework in Frameworks */,
+				99EFF82220A5E5B900304A7B /* DCM.framework in Frameworks */,
 				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
 				D3B6D137145669D0000EE968 /* liblevmar.a in Frameworks */,
 			);
@@ -293,7 +293,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				LIBRARY_STYLE = Bundle;
-				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = (
 					"-undefined",
@@ -364,7 +364,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				LIBRARY_STYLE = Bundle;
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = (
 					"-undefined",
@@ -415,7 +415,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				LIBRARY_STYLE = Bundle;
-				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = (
 					"-undefined",
